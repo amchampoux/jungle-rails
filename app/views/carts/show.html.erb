@@ -39,7 +39,6 @@
 
     <% if enhanced_cart.blank? %>
       <%= "Your cart is currently empty. Shop for nice products!  " %><%= link_to "Back to homepage", "/"%>
-
     <% else %>
       <%= form_tag orders_path do %>
         <script
